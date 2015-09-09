@@ -16,12 +16,12 @@ What is the name of the proposed Subproject?
 Please list the full names, affiliations and GitHub ids of the Subproject development
 team:
 
-* Lisa Simpson, Springfield Elementary School (@lisa)
-* Bart Simpson, Springfield Elementary School (@bart)
+* Lisa Simpson, Springfield Elementary School (`@lisasimpson`)
+* Bart Simpson, Springfield Elementary School (`@bartsimpson`)
 
 Who is the Steering Council Advocate for this Subproject?
 
-* Steering Council Person (@their-github)
+* Steering Council Person (`@their-github`)
 
 ## Subproject goals, scope and functionality
 
