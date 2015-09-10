@@ -25,7 +25,10 @@ This repository is used for incubation proposals. To initiate this process:
 
 1. Read the [New Subproject Process](https://github.com/jupyter/governance/blob/master/newsubprojects.md)
    to see if incubation on [jupyter-incubator](https://github.com/jupyter-incubator) is appropriate for your new Subproject (it might not be). If is doubt, please send an email to the main Jupyter list asking for input.
-3. Pick a name for your new Subproject that is free of trademark problems.
+3. Pick a name for your new Subproject that is free of trademark problems, follows the
+   naming patterns and conventions used in the project and respects the work of others
+   even when there are no explicit trademark problems. In general the project favors
+   functional names that indicate what the Subproject actually does.
 4. Find an Advocate for your Subproject who is an active Steering Council member.
 5. Create a pull request on this repository by copying the `template` directory
    into a new directory with the name of your proposed subprojet.
