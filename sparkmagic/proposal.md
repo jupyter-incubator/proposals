@@ -39,7 +39,7 @@ Spark users who want to have the best experience possible from a Notebook. These
 
 Alternatives we know of:
 
-* Combination of IPython, R kernel (or rpy2), and Scala kernel for an in-Spark-cluster Jupyter installation. This does not allow the user to point to different Spark clusters. It might also result in resouce contention (CPU or memory) between the Jupyter installation and Spark.
+* Combination of IPython, R kernel (or rpy2), and Scala kernel for an in-Spark-cluster Jupyter installation. This does not allow the user to point to different Spark clusters. It might also result in resource contention (CPU or memory) between the Jupyter installation and Spark.
 * IBM's Spark kernel does not provide a REST endpoint, requires the installation of Jupyter in the cluster, and does not create pandas dataframes.
 * sparklingpandas builds on Spark's DataFrame class to give users a Pandas-like API but does not take care of remote connectivity and is for pyspark only.
 
