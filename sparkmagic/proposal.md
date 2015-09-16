@@ -26,14 +26,14 @@ Goals:
 Scope:
 * IPython magics to enable remote Spark code execution through [Livy](https://github.com/cloudera/hue/tree/master/apps/spark/java), a Spark REST endpoint, which allows for Scala, Python, and R support as of September 2015.
 * The project will create a Python Livy client that will be used by the magics.
-* The project will integrate the output of Livy client with the rich visualization framework that is being proposed [LINK].
+* The project will integrate the output of Livy client (by creating [pandas](https://github.com/pydata/pandas) dataframes from it) with the rich visualization framework that is being proposed [LINK].
 * This project takes a dependency on Livy. The crew will work on Livy improvements required to support these scenarios.
 
 Functionality:
 * Enable users to connect to a remote Spark cluster running Livy from any IPython notebook to execute Scala, Pyspark, and R code.
 * Ability to reference custom libraries pre-installed in the remote Spark cluster.
 * Automatic rich visualization of Spark responses when appropriate. Look at [Zeppelin](https://zeppelin.incubator.apache.org/) for a vision of the functionality we want to enable for Spark users.
-* Return of [pandas](https://github.com/pydata/pandas) dataframes from Spark when appropriate to enable users to transform Spark results with the Python libraries available for pandas dataframes. These transformations will only be available on Python.
+* Return of pandas dataframes from Spark when appropriate to enable users to transform Spark results with the Python libraries available for pandas dataframes. These transformations will only be available on Python.
 
 Additional notes:
 * Livy will be installed on a remote Spark cluster. Livy will create Spark drivers that have full network access to the Spark master and the Spark worker nodes in the cluster.
