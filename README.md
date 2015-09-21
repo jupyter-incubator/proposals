@@ -48,7 +48,11 @@ Process](https://github.com/jupyter/governance/blob/master/newsubprojects.md) do
 
 Put links to the [jupyter-incubator](https://github.com/jupyter-incubator) GitHub repositories of all incubating subprojects here.
 
-* Your next great idea here!
+* https://github.com/jupyter-incubator/kernel_gateway
+* https://github.com/jupyter-incubator/contentmanagement
+* https://github.com/jupyter-incubator/dashboards
+* https://github.com/jupyter-incubator/sparkmagic
+* https://github.com/jupyter-incubator/declarativewidgets
 
 ## Subprojects that have been incorporated into Project Jupyter
 
