@@ -6,10 +6,10 @@
 Project Jupyter is organized as a set of Subprojects that are each a GitHub
 repository with a development team that follows the Jupyter governance, license and
 contribution model. Officially supported and maintained subprojects are hosted on
-the [jupyter](https://github.com/jupyter) GitHub orgnization.
+the [jupyter](https://github.com/jupyter) GitHub organization.
 
 Incubation refers to the process of a Subproject initially being developed outside
-the official Jupypter organization. The
+the official Jupyter organization. The
 [jupyter-incubator](https://github.com/jupyter-incubator) GitHub organization is
 maintained and managed by Project Jupyter as one possible location where Subproject
 can be incubated. The [New Subproject
