@@ -9,7 +9,7 @@ Jupyter Kernel Gateway (`jupyter-incubator/kernel_gateway`)
 * Peter Parente, IBM (`@parente`)
 * Dan Gisolfi, IBM (`@vinomaster`)
 * Justin Tyberg, IBM (`@jtyberg`)
-* Gino Bustelo, IBM (`@ginobustelo`)
+* Gino Bustelo, IBM (`@lbustelo`)
 
 Who is the Steering Council Advocate for this Subproject?
 
