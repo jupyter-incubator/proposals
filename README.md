@@ -53,6 +53,7 @@ Put links to the [jupyter-incubator](https://github.com/jupyter-incubator) GitHu
 * https://github.com/jupyter-incubator/dashboards
 * https://github.com/jupyter-incubator/sparkmagic
 * https://github.com/jupyter-incubator/declarativewidgets
+* https://github.com/jupyter-incubator/traittypes
 
 ## Subprojects that have been incorporated into Project Jupyter
 
