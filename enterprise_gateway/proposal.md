@@ -75,9 +75,21 @@ Notebook users to connect and share existing Spark cluster resources when execut
 
 ## Other options
 
-We are not aware of alternatives that provide the same set of capabilities, the closest that we could find
-is JupyterHub, but that aims to spawn multiple Jupyter Notebook servers around a given cluster - where the
-kernel processes are still co-located with the launching server.
+Enterprise Gateway has very close affinity with Kernel Gateway and could be considered the next generation of JKG.
+As JKG is planning to move its functionality directly to Jupyter Notebook (see [JKG-259 ](https://github.com/jupyter/kernel_gateway/issues/259)
+and [JUPYTER-2644 ](https://github.com/jupyter/notebook/issues/2644)), and based on recommendation from some
+members from the JKG community, we have decided to boostrap a new project (“Enterprise Gateway”). We expect that in
+the future, once functionality has been moved out of JKG, Enterprise Gateway will have a direct dependency on the
+Notebook server.
+
+Other projects have tried to solve the 'remote kernel' problem (e.g. [remotekernel](https://github.com/danielballan/remotekernel)
+or [remote_ikernel](https://bitbucket.org/tdaff/remote_ikernel)) but these seem to be providing a wrapper/proxy kernel
+that will introduce a level of indirection that can cause side-effects. In any case, they do not provide any integration
+with Spark and its resource manager.
+
+As for JupyterHub, we believe its a full solution, providing capabilities to spawn and manage Notebook servers per
+user. In this scenario, the JupyterHub will be independently consuming and managing cluster compute resources that
+compete directly with managed resources.  This may lead to operational and management issues for cluster administrators.
 
 ## Integration with Project Jupyter
 
