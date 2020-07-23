@@ -48,8 +48,6 @@ Process](https://github.com/jupyter/governance/blob/master/newsubprojects.md) do
 
 Put links to the [jupyter-incubator](https://github.com/jupyter-incubator) GitHub repositories of all incubating subprojects here.
 
-* https://github.com/jupyter-incubator/enterprise_gateway
-* https://github.com/jupyter-incubator/nb2kg
 * https://github.com/jupyter-incubator/contentmanagement
 * https://github.com/jupyter-incubator/sparkmagic
 
@@ -57,6 +55,8 @@ Put links to the [jupyter-incubator](https://github.com/jupyter-incubator) GitHu
 
 Put links to the [jupyter](https://github.com/jupyter) GitHub repositories of all Subprojects that previously incubated here, but have been incorporated into the main Jupyter organization
 
+* https://github.com/jupyter/enterprise_gateway
+* https://github.com/jupyter/nb2kg
 * https://github.com/jupyter/kernel_gateway
 * https://github.com/jupyter/dashboards
 * https://github.com/jupyter-widgets/traittypes
